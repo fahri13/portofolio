@@ -2,7 +2,7 @@
 
 @section('content')
  <!-- Hero Section start -->
- <section id="home" class="pt-3">
+ <section id="home" class="pt-36">
 <div class="container">
     <div class="flex flex-wrap">
         <div class="w-full self-center px-4 lg:w-1/2">

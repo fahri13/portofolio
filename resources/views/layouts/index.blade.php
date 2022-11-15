@@ -18,6 +18,24 @@
 @yield('content')
 </div>
 
-    
+    <script>
+      window.onscroll = function() {
+        const header = document.querySelector('#header');
+        const navFix = header.offsetTop;
+        if(window.pageYOffset > navFix) {
+          header.classList.add('navbar-fixed');
+        } else {
+          header.classList.remove('navbar-fixed');
+        }
+      }
+
+
+      const hamburger = document.querySelector('#hamburger');
+      hamburger.addEventListener('click', function(){
+        hamburger.classList.toggle('hamburger-active');
+        const navMenu = document.querySelector('#nav-menu');
+        navMenu.classList.toggle('hidden');
+      });
+    </script>
   </body>
 </html>
