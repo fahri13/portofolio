@@ -14,9 +14,9 @@
   <body>
 
   @include('layouts.navbar')
-<div class="container mt-5">
+<!-- <div class="container mt-5"> -->
 @yield('content')
-</div>
+<!-- </div> -->
 
     <script>
       window.onscroll = function() {
