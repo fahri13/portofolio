@@ -14,22 +14,22 @@
       <nav id="nav-menu" class="hidden lg:block lg:static lg:shadow-none lg:rounded-none lg:bg-transparent lg:max-w-full absolute py-5 right-4 top-full bg-white shadow-lg rounded-lg max-w-[250px] w-full">
         <ul class="block lg:flex">
           <li class="group">
-            <a href="#home" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Beranda</a>
+            <a href="{{ url('halaman') }}" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Halaman</a>
           </li>
           <li class="group">
-            <a href="#aboout" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">About</a>
+            <a href="{{ url('tentang') }}" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Tentang</a>
           </li>
           <li class="group">
-            <a href="#portofolio" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Portofolio</a>
+            <a href="{{ url('portofolio') }}" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Portofolio</a>
           </li>
-          <li class="group">
+          {{-- <li class="group">
             <a href="#clients" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Clients</a>
+          </li> --}}
+          <li class="group">
+            <a href="{{ url('blog') }}" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Blog</a>
           </li>
           <li class="group">
-            <a href="#clients" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Blog</a>
-          </li>
-          <li class="group">
-            <a href="#clients" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Contact</a>
+            <a href="{{ url('kontak') }}" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Contact</a>
           </li>
         </ul>
       </nav>
