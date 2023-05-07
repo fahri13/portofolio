@@ -11,7 +11,7 @@
           Masuk
         </h2>
       </div>
-      <form action="{{ url('/masuk/login') }}" method="post">
+      <form action="">
         <form action="">
           <div class="w-full lg:w-2/3 lg:mx-auto">
           <div class="w-full px-4 mb-8">

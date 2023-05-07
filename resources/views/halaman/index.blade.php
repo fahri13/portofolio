@@ -5,19 +5,32 @@
  <section id="home" class="pt-36">
 <div class="container">
     <div class="flex flex-wrap">
-        <div class="w-full self-center px-4 lg:w-1/2">
-            <h1 class="text-base font-semibold text-primary md:text-xl">Heloo <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Tuanmuda</span></h1>
-            <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Programmer | <span class="text-dark">Web</span></h2>
-            <p class="font-medium text-secondary mb-10 leading-relaxed">Belajar portofolio <span class="text-dark font-bold">bukan</span></p>
-            <a href="" class="text-base font-semibold text-white bg-primary py-3 px-3 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi</a>
+        <div class="w-full self-center px-4 lg:w-1/2 lg:text-right text-left">
+            <h1 class="text-primary text-xl">Selamat Datang,
+                <span class="block font-medium text-dark">
+                <span class="text-slate-700"> Ini adalah</span> 
+                <span class="text-3xl text-dark">website</span> 
+                <span class="text-slate-700">pribadi saya,</span>  
+                <span class="text-3xl text-slate-600">website</span> 
+                <span class="text-slate-700">ini berisi</span> 
+                <a href="" class="text-2xl text-dark"> tentang </a> saya, 
+                <a href="" class="text-2xl text-dark">blog</a> pribadi saya, 
+                <a href="" class="text-2xl text-dark">project</a> yang pernah saya buat, serta 
+                <a href="" class="text-2xl text-dark">kontak</a> saya.</span></h1>
+            <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Teknik Informatika <span class="text-dark">|</span><span class="text-primary"> Programmer</span></h2>
+            <p class="font-medium text-dark mb-10 leading-relaxed"><span class="text-primary">Mengembangkan</span> Untuk <span class="text-dark font-bold">Memudahkan</span></p>
+
         </div>
         <div class="w-full self-end px-4 lg:w-1/2">
-            <div class="relative mt-10 lg:mt-0 lg:right-0">
-                <img src="/profile3a.png" alt="tuan muda" class="max-w-full mx-auto">
+            <div class="relative mt-10 lg:mt-0 lg:right-40">
+                <img src="/assets/img/profile3a.png" alt="tuan muda" class="max-w-full mx-auto">
                 <span class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-1">
-                    <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <path fill="#14b8a6" d="M38.5,-30C53.3,-12.2,70.9,4,68.6,16.3C66.4,28.7,44.2,37.1,25.2,42.4C6.3,47.8,-9.4,49.9,-28.6,45.9C-47.8,41.8,-70.5,31.5,-72,18.4C-73.4,5.2,-53.6,-10.8,-38,-28.8C-22.5,-46.7,-11.2,-66.5,0.3,-66.8C11.9,-67,23.8,-47.7,38.5,-30Z" transform="translate(100 100) scale(1.1)" />
-              </svg></span></div>
+                     
+                      <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#60A5FA" d="M25.4,-41.7C30.7,-40.9,31.3,-29.7,30.3,-21C29.3,-12.3,26.7,-6.1,35.5,5C44.2,16.2,64.3,32.5,63.2,37.6C62.2,42.8,40.1,37,26,35.8C12,34.6,6,38.1,1.2,36C-3.5,33.8,-7,26,-13.9,23.1C-20.8,20.1,-31.1,22,-36.7,19C-42.3,16,-43.1,8,-40.1,1.8C-37,-4.4,-29.9,-8.8,-29.7,-21.1C-29.4,-33.3,-35.9,-53.4,-32.1,-55.1C-28.3,-56.8,-14.2,-40,-2.1,-36.4C10,-32.9,20.1,-42.5,25.4,-41.7Z" transform="translate(100 100)" />
+                      </svg>
+
+            </span></div>
         </div>
     </div>
 </div>
@@ -62,32 +75,21 @@
         <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
             <div class="mb-12 p-4 md:w-1/2">
                 <div class="rounded-md shadow-md overflow-hidden">
-                    <img src="p1.png" width="w-full" alt="landing page">
+                    <img src="/assets/img/p1.png" width="w-full" alt="landing page">
                 </div>
                 <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Landing Page</h3>
                 <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolores natus expedita.</p>
             </div>
             <div class="mb-12 p-4 md:w-1/2">
                 <div class="rounded-md shadow-md overflow-hidden">
-                    <img src="p2.png" width="w-full" alt="landing page">
+                    <img src="/assets/img/p2.png" width="w-full" alt="landing page">
                 </div>
                 <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Landing Page</h3>
                 <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolores natus expedita.</p>
             </div>
-            <div class="mb-12 p-4 md:w-1/2">
-                <div class="rounded-md shadow-md overflow-hidden">
-                    <img src="p3.png" width="w-full" alt="landing page">
-                </div>
-                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Landing Page</h3>
-                <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolores natus expedita.</p>
-            </div>
-            <div class="mb-12 p-4 md:w-1/2">
-                <div class="rounded-md shadow-md overflow-hidden">
-                    <img src="p4.png" width="w-full" alt="landing page">
-                </div>
-                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Landing Page</h3>
-                <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolores natus expedita.</p>
-            </div>
+        </div>
+        <div class="w-full px-4 flex items-center justify-center">
+            <a href="" class="bg-primary rounded-full p-2 text-white">Selengkapnya</a>
         </div>
     </div>
  </section>
@@ -105,19 +107,19 @@
         <div class="w-full px-4">
             <div class="flex flex-wrap items-center justify-center">
                 <a class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" href="asda">
-                    <img src="Gojek_logo_2019.svg" alt="Gojek">
+                    <img src="/assets/img/Gojek_logo_2019.svg" alt="Gojek">
                     {{-- <img src="Google_2015_logo.svg" alt="Google"> --}}
                 </a>
                 <a class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" href="sadd">
-                    <img src="Google_2015_logo.svg" alt="Google">
+                    <img src="/assets/img/Google_2015_logo.svg" alt="Google">
                 </a>
                 <a class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" href="adw">
                     {{-- <img src="Google_2015_logo.svg" alt="Google"> --}}
-                    <img width="70" src="Shopee_logo.svg" alt="Shopee">
+                    <img width="70" src="/assets/img/Shopee_logo.svg" alt="Shopee">
                 </a>
                 <a class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" href="awd">
                     {{-- <img src="Google_2015_logo.svg" alt="Google"> --}}
-                   <img src="Tokopedia.svg" alt="Tokopedia">
+                   <img src="/assets/img/Tokopedia.svg" alt="Tokopedia">
                 </a>
             </div>
         </div>

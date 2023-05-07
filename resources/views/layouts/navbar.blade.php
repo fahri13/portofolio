@@ -3,7 +3,7 @@
 <div class="container">
   <div class="flex items-center justify-between relative">
     <div class="px-4">
-      <a href="#home" class="font-bold text-lg text-primary block py-6">TuanMuda</a>
+      <a href="#home" class="font-bold text-lg text-primary block py-6">Fachrizal</a>
     </div>
     <div class="flex items-center px-4">
       <button id="hamburger" type="button" class="block absolute right-4 lg:hidden" name="humberger">
@@ -25,12 +25,19 @@
           {{-- <li class="group">
             <a href="#clients" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Clients</a>
           </li> --}}
-          <li class="group">
+          {{-- <li class="group">
             <a href="{{ url('blog') }}" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Blog</a>
-          </li>
+          </li> --}}
           <li class="group">
             <a href="{{ url('kontak') }}" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Contact</a>
           </li>
+          <li class="group">
+            <a href="{{ url('masuk') }}" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">SignIn</a>
+          </li>
+          <li class="group">
+            <a href="{{ url('daftar') }}" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">SignUp</a>
+          </li>
+          
         </ul>
       </nav>
     </div>

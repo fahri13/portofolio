@@ -9,6 +9,9 @@ use App\Http\Controllers\Blog;
 use App\Http\Controllers\Tentang;
 use App\Http\Controllers\Kontak;
 use App\Http\Controllers\Portofolio;
+use App\Http\Controllers\Masuk;
+use App\Http\Controllers\Daftar;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +35,5 @@ Route::get('/blog', [Blog::class, 'index']);
 Route::get('/tentang', [Tentang::class, 'index']);
 Route::get('/kontak', [Kontak::class, 'index']);
 Route::get('/portofolio', [Portofolio::class, 'index']);
+Route::get('/masuk',[Masuk::class, 'index']);
+Route::post('/masuk/login', [Masuk::class, 'login']);

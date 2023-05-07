@@ -20,11 +20,10 @@
             <div class="w-full px-4 mb-12 md:w-1/3">
                 <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
                 <ul class="text-slate-300">
-                    <li><a href="" class="inline-block text-base hover:text-primary mb-3">Home</a></li>
-                    <li><a href="" class="inline-block text-base hover:text-primary mb-3">About</a></li>
+                    <li><a href="" class="inline-block text-base hover:text-primary mb-3">Halaman</a></li>
+                    <li><a href="" class="inline-block text-base hover:text-primary mb-3">Tentang</a></li>
                     <li><a href="" class="inline-block text-base hover:text-primary mb-3">Portofolio</a></li>
-                    <li><a href="" class="inline-block text-base hover:text-primary mb-3">Clients</a></li>
-                    <li><a href="" class="inline-block text-base hover:text-primary mb-3">Contact</a></li>
+                    <li><a href="" class="inline-block text-base hover:text-primary mb-3">Kontak</a></li>
                 </ul>
             </div>
         </div>
