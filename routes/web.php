@@ -2,10 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\Halaman;
+use App\Http\Controllers\Pages;
 use App\Http\Controllers\Posts;
-use App\Http\Controllers\Login;
-
+use App\Http\Controllers\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,10 +16,12 @@ use App\Http\Controllers\Login;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/halaman', [Halaman::class, 'index']);
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/',[Pages::class, 'index']);
+Route::get('/pages/index', [Pages::class, 'index']);
 Route::get('/posts', [Posts::class, 'index']);
-Route::get('/login', [Login::class, 'index']);
+Route::get('/pages/login', [Pages::class, 'login']);
+Route::get('/pages/register', [Pages::class, 'register']);
+Route::Post('/auth/register', [Auth::class, 'register']);

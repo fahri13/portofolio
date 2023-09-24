@@ -14,13 +14,13 @@
       <nav id="nav-menu" class="hidden lg:block lg:static lg:shadow-none lg:rounded-none lg:bg-transparent lg:max-w-full absolute py-5 right-4 top-full bg-white shadow-lg rounded-lg max-w-[250px] w-full">
         <ul class="block lg:flex">
           <li class="group">
-            <a href="#home" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Beranda</a>
+            <a href="/pages/index" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Beranda</a>
           </li>
           <li class="group">
-            <a href="#aboout" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">About</a>
+            <a href="/pages/login" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Login</a>
           </li>
           <li class="group">
-            <a href="#portofolio" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Portofolio</a>
+            <a href="/pages/register" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Register</a>
           </li>
           <li class="group">
             <a href="#clients" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Clients</a>
@@ -28,7 +28,7 @@
           <li class="group">
             <a href="#clients" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Blog</a>
           </li>
-          <li class="group">
+          <li class="group"></li>
             <a href="#clients" class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Contact</a>
           </li>
         </ul>
