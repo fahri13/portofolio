@@ -28,14 +28,24 @@
       <div class="max-w-xl mx-auto text-center mb-16">
         <h4 class="font-semibold text-lg text-primary mb-2">Register</h4>
       </div>
+      <div class="max-w-xl mx-auto text-center mb-16">
+        @if(session()->has('success'))
+        
+        <h4 class="font-semibold text-lg text-primary mb-2">{{session('success')}}</h4>
+        @endif
+      </div>
     </div>
   <div class="w-full lg:w-2/3 lg:mx-auto">
     <form action="/auth/register" method="post">
       @csrf
+   
+
         <div class="w-full px4 mb-8">
             <label for="email" class="text-base text-primary font-bold">Email</label>
-            <input type="text" name="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:bg-slate-50 focus:ring-1 focus:border-primary">
-            
+            <input type="text" name="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none rounded-red-500 border-red-500 focus:ring-primary @error('email') focus:ring-red-500 @enderror focus:bg-slate-50 focus:ring-1 focus:border-primary">
+            @error('email')
+            <h6 class="text-red-500">{{$message}}</h6>
+            @enderror
         </div>
         <div class="w-full px4 mb-8">
             <label for="nama" class="text-base text-primary font-bold">Nama</label>

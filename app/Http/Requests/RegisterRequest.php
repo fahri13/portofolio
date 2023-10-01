@@ -29,4 +29,11 @@ class RegisterRequest extends FormRequest
             'nama' => 'required'
         ];
     }
+
+    public function messagges() :array
+    {
+        return [
+            'email.required' => 'Email Harus diisi'
+        ];
+    }
 }
